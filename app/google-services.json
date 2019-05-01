@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "40159410090",
+    "firebase_url": "https://dharmonys.firebaseio.com",
+    "project_id": "dharmonys",
+    "storage_bucket": "dharmonys.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:40159410090:android:50af53b711776624",
+        "android_client_info": {
+          "package_name": "com.exomatik.irfanrz.dharmonis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "40159410090-a8tualarrj2efnkulsrh20n0gof5b2tt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.exomatik.irfanrz.dharmonis",
+            "certificate_hash": "6d09a41daf8e3ea3540b260ae1f4878b04cd8166"
+          }
+        },
+        {
+          "client_id": "40159410090-f4e89n01i417fl8f7frh2ucocbcladgi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbjuh85yY-52s3T_QcE7iCvNCJKyYH_Wg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "40159410090-f4e89n01i417fl8f7frh2ucocbcladgi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

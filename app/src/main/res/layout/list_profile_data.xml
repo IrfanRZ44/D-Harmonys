@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/border_rl_putih"
+    android:elevation="3dp"
+    android:padding="@dimen/margin_standard"
+    android:layout_margin="@dimen/margin_small"
+    >
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/img_profile"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/img_profile"
+        android:textColor="@color/hitam"
+        android:textSize="@dimen/text_font"
+        android:id="@+id/nama"
+        android:layout_marginLeft="@dimen/margin_standard"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nama"
+        android:layout_toRightOf="@+id/img_profile"
+        android:textColor="@color/hitam"
+        android:textSize="@dimen/text_font"
+        android:id="@+id/url"
+        android:layout_marginLeft="@dimen/margin_standard"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/url"
+        android:layout_toRightOf="@+id/img_profile"
+        android:textColor="@color/hitam"
+        android:textSize="@dimen/text_font"
+        android:id="@+id/alamat"
+        android:layout_marginLeft="@dimen/margin_standard"
+        />
+
+
+</RelativeLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/putihGelap1"
+    android:layout_margin="@dimen/margin_small"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_rl_putih_gray"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="d'harmonys"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/hitam"
+            android:textSize="@dimen/title_font"
+            android:id="@+id/text"
+            android:layout_marginBottom="@dimen/margin_small"
+            />
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rc_video"
+            android:layout_below="@+id/text"
+            >
+
+        </android.support.v7.widget.RecyclerView>
+        <!--<GridView-->
+            <!--android:id="@+id/grid_video"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_margin="@dimen/margin_standard"-->
+            <!--android:columnWidth="100dp"-->
+            <!--android:gravity="center"-->
+            <!--android:horizontalSpacing="@dimen/margin_standard"-->
+            <!--android:numColumns="1"-->
+            <!--android:stretchMode="columnWidth"-->
+            <!--android:verticalSpacing="@dimen/margin_standard"-->
+            <!--android:layout_below="@+id/text"-->
+            <!--&gt;-->
+
+        <!--</GridView>-->
+    </RelativeLayout>
+</RelativeLayout>

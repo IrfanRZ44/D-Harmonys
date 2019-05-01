@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/border_rl_putih"
+    android:elevation="@dimen/margin_small"
+    android:padding="@dimen/margin_standard"
+    android:layout_margin="@dimen/margin_small"
+    >
+    <com.google.android.youtube.player.YouTubeThumbnailView
+        android:id="@+id/youtube_thumbnail"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        android:visibility="visible" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="title"
+        android:layout_below="@+id/youtube_thumbnail"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/hitam"
+        android:id="@+id/text_title"
+        android:textAlignment="center"
+        android:maxLines="2"
+        />
+    <RelativeLayout
+        android:id="@+id/relativeLayout_over_youtube_thumbnail"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:visibility="visible"
+        android:layout_centerInParent="true"
+        >
+
+        <ImageView
+            android:id="@+id/btnYoutube_player"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="center"
+            android:src="@drawable/ic_play_gray"
+            android:layout_centerInParent="true"
+            />
+    </RelativeLayout>
+    <ImageView
+        android:layout_width="85dp"
+        android:layout_height="35dp"
+        android:src="@drawable/subscribe"
+        android:layout_below="@+id/text_title"
+        android:layout_toLeftOf="@+id/img_download"
+        android:layout_marginRight="@dimen/margin_small"
+        android:layout_marginBottom="@dimen/margin_standard"
+        android:id="@+id/img_youtube"
+        />
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/ic_download"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/text_title"
+        android:id="@+id/img_download"
+        />
+
+</RelativeLayout>
